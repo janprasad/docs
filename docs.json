@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "almond",
+  "name": "PUG (Pure Upgrade)",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8648e5",
+    "light": "#a44af2",
+    "dark": "#5e4ddb"
   },
   "favicon": "/favicon.svg",
   "navigation": {
