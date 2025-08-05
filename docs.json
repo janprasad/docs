@@ -92,8 +92,8 @@
     }
   },
   "logo": {
-    "light": "/logo/pug-logo-no-bg.png",
-    "dark": "/logo/pug-logo.png"
+    "light": "/logo/pug-light-favicon.png",
+    "dark": "/logo/pug-light-favicon.png"
   },
   "navbar": {
     "links": [
