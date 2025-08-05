@@ -7,7 +7,10 @@
     "light": "#a44af2",
     "dark": "#5e4ddb"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/logo/pug-light-favicon.png",
+    "dark": "/logo/pug-dark-favicon.png"
+  },
   "navigation": {
     "tabs": [
       {
@@ -89,8 +92,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/pug-logo-no-bg.png",
+    "dark": "/logo/pug-logo.png"
   },
   "navbar": {
     "links": [
