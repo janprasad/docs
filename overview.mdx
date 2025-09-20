@@ -4,10 +4,10 @@ description: "Share your PUG documentation across any platform your team uses. G
 ---
 
 ## Quick Export (No setup)
-1. HTML export
-2. PDF Export
+1. HTML 
+2. PDF 
 
-### Confluence Integration
+## Confluence Integration
 Export directly to your team’s Confluence wiki with automatic organization.
 
 <AccordionGroup>
@@ -27,7 +27,7 @@ Export directly to your team’s Confluence wiki with automatic organization.
 </AccordionGroup>
 
 
-### Notion Integration
+## Notion Integration
 Export to Notion databases for team collaboration and knowledge management.
 
 <AccordionGroup>
@@ -40,7 +40,7 @@ Export to Notion databases for team collaboration and knowledge management.
 </AccordionGroup>
 
 
-### Bulk Export
+## Bulk Export
 Export all documents at once
 
 <AccordionGroup>
@@ -52,3 +52,56 @@ Export all documents at once
 </AccordionGroup>
 
 
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title='Confluence Issues'>
+  **Authentication failed:**
+      - Verify email and API token are correct
+      - Check API token hasn’t expired
+      - Ensure write permissions to the space
+    
+  **Space not found:**
+      - Verify space key is correct (case-sensitive)
+      - Check space exists and you have access
+      - Confirm Confluence URL is complete
+  </Accordion>
+
+  <Accordion title="Notion Issues">
+  **Database not accessible:**
+      - Verify database ID is correct
+      - Check integration has database access
+      - Ensure database is shared with PUG integration
+
+  **Token invalid:**
+      - Regenerate Notion integration token
+      - Verify complete token was copied
+      - Check integration hasn’t been revoked
+  </Accordion>
+
+  <Accordion title="General Issues">
+  **No documentation found:**
+      - Generate documentation first with PUG
+      - Check .cursor/rules/ contains .mdc or files
+      - Verify file paths in project
+  
+  **Export failed:**
+      - Check internet connection
+      - Verify write permissions to output directory
+      - Try exporting individual files to isolate issue
+  </Accordion>
+</AccordionGroup>
+
+## Best Practices
+### For Teams 
+- Use consistent naming for spaces and databases
+- Set up templates for standardized formatting
+- Regular exports to keep team documentation current
+- Proper permissions in Confluence/Notion
+
+### For Organizations
+- Centralized management with shared spaces
+- Brand consistency with custom styling
+- Version control and access auditing
+- Regular review of documentation access
